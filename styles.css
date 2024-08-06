@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+.main_container{
+    align-items: center;
+    border: 2px solid black;
+    text-align: center;
+   
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(247, 172, 60);
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#serach{
+    padding: 10px;
+    border-radius: 20px;
+    width: 15rem;
+    border: none;
+}
+.emojee_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
