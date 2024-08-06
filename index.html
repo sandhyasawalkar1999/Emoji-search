@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -12,26 +13,26 @@
     <h1>Emojee - Emoji 🔍 Application</h1>
     <br>
     <br>
-    <div id="filter-emojee">
-        <button class="filter-btn" data-category="all" id="all">All</button>
-        <button class="filter-btn" id="face" value="face">Face</button>
-        <button class="filter-btn" data-category="heart">Heart</button>
-        <button  class="filter-btn" data-category="Book">Book</button>
-        <button  class="filter-btn" data-category="sports">Sports</button>
-        <button  class="filter-btn" data-category="flag">Flag</button>
+    <div id="filter-emoji">
+        <button class="filter-btn1" data-category="all" id="all">All</button>
+        <button class="filter-btn" data-category="face" id="face">Face</button>
+        <button class="filter-btn" data-category="heart" id="heart">Heart</button>
+        <button class="filter-btn" data-category="book" id="book">Book</button>
+        <button class="filter-btn" data-category="sports" id="sports">Sports</button>
+        <button class="filter-btn" data-category="flag" id="flag">Flag</button>
     </div>
    
     <form action="">
-        <input type="text" id="serach" placeholder="🔍 Search Emoji...">
+        <input type="text" id="search" placeholder="🔍 Search Emoji...">
     </form>
     <br>
     <table>
-        <tbody id="emojee_container">
-
+        <tbody id="emoji_container">
+            <!-- Emoji rows will be appended here -->
         </tbody>
     </table>
 </div>
-<script src="emojee.js"></script>
-<script src ="script.js"></script>
+<script src="./emojee.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>

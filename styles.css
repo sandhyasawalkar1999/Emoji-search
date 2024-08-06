@@ -22,18 +22,20 @@ button{
     margin-left: 10px;
     margin-bottom: 10px;
 }
-#serach{
+#search{
     padding: 10px;
     border-radius: 20px;
     width: 15rem;
     border: none;
 }
-#emojee_container{
+#emoji_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-size: 50px;
+    margin: 40px;
+    padding: 20px;
 
 }
