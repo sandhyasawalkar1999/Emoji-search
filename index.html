@@ -12,12 +12,15 @@
     <h1>Emojee - Emoji 🔍 Application</h1>
     <br>
     <br>
-    <button>All</button>
-    <button>Face</button>
-    <button>Heart</button>
-    <button>Book</button>
-    <button>Sports</button>
-    <button>Flag</button>
+    <div id="filter-emojee">
+        <button class="filter-btn" data-category="all" id="all">All</button>
+        <button class="filter-btn" id="face" value="face">Face</button>
+        <button class="filter-btn" data-category="heart">Heart</button>
+        <button  class="filter-btn" data-category="Book">Book</button>
+        <button  class="filter-btn" data-category="sports">Sports</button>
+        <button  class="filter-btn" data-category="flag">Flag</button>
+    </div>
+   
     <form action="">
         <input type="text" id="serach" placeholder="🔍 Search Emoji...">
     </form>

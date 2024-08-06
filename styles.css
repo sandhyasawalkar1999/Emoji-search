@@ -9,7 +9,7 @@ body{
 }
 .main_container{
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
    
 }
@@ -28,10 +28,12 @@ button{
     width: 15rem;
     border: none;
 }
-.emojee_container{
+#emojee_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    font-size: 50px;
 
 }
